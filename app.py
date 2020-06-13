@@ -3,15 +3,14 @@ from flask import Flask, request, jsonify, render_template
 from flask_restful import Api, Resource, reqparse
 from flask_cors import CORS, cross_origin
 
-import tensorflow as tf
-from tensorflow import keras
-from keras import utils
-from keras.utils import to_categorical
-from keras.models import Sequential, model_from_json, load_model
-from keras.layers import Dense, Activation, Dropout, Input
-from keras.layers.normalization import BatchNormalization
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
+# from tensorflow import keras
+# from keras import utils
+# from keras.utils import to_categorical
+# from keras.models import Sequential, model_from_json, load_model
+# from keras.layers import Dense, Activation, Dropout, Input
+# from keras.layers.normalization import BatchNormalization
+# from keras.preprocessing.text import Tokenizer
+# from keras.preprocessing.sequence import pad_sequences
 
 import pickle
 
